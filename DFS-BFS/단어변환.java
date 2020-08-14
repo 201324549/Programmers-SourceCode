@@ -1,6 +1,6 @@
 package Programmers;
 
-public class �ܾȯ {
+public class ´Ü¾îº¯È¯ {
 	static int result;
 	static boolean[] v;
 	public static void main(String[] args) {
@@ -49,7 +49,7 @@ public class �ܾȯ {
 					c++;
 				}
 			}
-			if(c == 2) {
+			if(c == target.length()-1) {
 				v[i] = true;
 				System.out.println(words[i]);
 				dfs(cnt +1, words[i], target, words);
